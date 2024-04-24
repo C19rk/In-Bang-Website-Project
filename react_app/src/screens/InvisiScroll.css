@@ -1,0 +1,22 @@
+/* Add this CSS to your AboutUs.css file */
+.card-container {
+  max-height: 100vh; /* Set a maximum height for the container */
+  overflow-y: auto; /* Show vertical scrollbar only when needed */
+}
+
+/* Style the scrollbar */
+.card-container::-webkit-scrollbar {
+  width: 1vh; /* Set width for the scrollbar */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  border-radius: 1vh; /* Add border-radius for rounded corners */
+}
+
+.card-container:hover::-webkit-scrollbar-thumb {
+  background-color: blue; /* Set background color for the scrollbar thumb on hover */
+}
+
+.card-container::-webkit-scrollbar-thumb:hover {
+  background-color: navy; /* Change color on hover */
+}

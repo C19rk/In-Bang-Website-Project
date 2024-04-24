@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+section {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  width: 300px; /* 카드의 너비 */
+  margin: 10px; /* 카드 주변의 여백 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+  border-radius: 8px; /* 모서리 둥글게 */
+  overflow: hidden; /* 내용이 박스를 넘어가면 잘라냄 */
+}
+
+.card img {
+  width: 100%; /* 이미지가 카드 크기에 맞게 조정 */
+  height: auto;
+}
+
+.card-info {
+  padding: 20px; /* 내부 여백 */
+}
+
+.card h3,
+.card p {
+  margin: 0; /* 기본 마진 제거 */
+}
+.card {
+  width: 300px; /* 카드의 너비 */
+  margin: 10px; /* 카드 주변의 여백 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+  border-radius: 8px; /* 모서리 둥글게 */
+  overflow: hidden; /* 내용이 박스를 넘어가면 잘라냄 */
+}
+
+.card img {
+  width: 100%; /* 이미지가 카드 크기에 맞게 조정 */
+  height: auto;
+}
+
+.card-info {
+  padding: 20px; /* 내부 여백 */
+}
+
+.card h3,
+.card p {
+  margin: 0; /* 기본 마진 제거 */
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  /* margin: 0;
+  padding: 0; */
+  
+}
+
+.carousel,
+.video-cards,
+.card-sliders,
+.code-structure,
+.styling {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.carousel img{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+
+.video-cards img,
+.card-sliders img,
+.code-structure img,
+.styling img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
