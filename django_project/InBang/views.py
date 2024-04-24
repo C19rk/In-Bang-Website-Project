@@ -1,29 +1,20 @@
 from django.shortcuts import render, redirect
-<<<<<<< HEAD
 from rest_framework.decorators import api_view, permission_classes, authentication_classes
-=======
 from rest_framework.decorators import api_view, permission_classes
->>>>>>> 5c100b10978ac34cad152d9f5ad50b48efb55758
 from rest_framework.response import Response
 from django.contrib.auth import update_session_auth_hash
 from django.views.decorators.http import require_http_methods
 from .serializers import UserSerializer, MyTokenObtainPairSerializer, UserSerializerWithToken, ChangePasswordSerializer, ResetPasswordSerializer, UserSettingsSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
-<<<<<<< HEAD
 from rest_framework_simplejwt.authentication import JWTAuthentication
-=======
->>>>>>> 5c100b10978ac34cad152d9f5ad50b48efb55758
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password, check_password
 from rest_framework import status
 from django.contrib import messages
 from django.contrib.auth.models import User
-<<<<<<< HEAD
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
-=======
 from rest_framework.permissions import IsAuthenticated
->>>>>>> 5c100b10978ac34cad152d9f5ad50b48efb55758
 from rest_framework.generics import UpdateAPIView
 from django.core.mail import send_mail
 from django.core.validators import validate_email
@@ -110,9 +101,7 @@ def userSettings(request):
         user.save()
         return Response({'message': 'User information successfully updated.'}, status=status.HTTP_200_OK)
     else:
-<<<<<<< HEAD
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-=======
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 def initiate_payment(request):
@@ -147,4 +136,3 @@ def handle_payment_confirmation(request):
     else:
         # Handle payment failure or other statuses
         return JsonResponse({'message': 'Payment failed'})
->>>>>>> 5c100b10978ac34cad152d9f5ad50b48efb55758
