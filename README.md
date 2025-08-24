@@ -1,4 +1,4 @@
-# In-Bang Website Project
+# In-Bang Website Project (Video Streaming Service Website Project)
 
 ## Description
 In-Bang is a korean word in short for, "internet videos" in english. This website is a Netflix clone running under Django's backend and React's Frontend.
@@ -12,5 +12,6 @@ Clark Neal Manuntag (Leader) – Lead Developer, implemented the majority of fro
 Chester Pineda (Member) – Implemented the functional video player and fixed registration and login issues.
 
 We Seong Yun (Member) - Assisted with initial frontend design and layout.
+
 
 
