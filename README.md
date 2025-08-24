@@ -8,6 +8,9 @@ Our Data Structures and Algorithms course tasked us with a Django (backend) and 
 
 ## Contributions
 Clark Neal Manuntag (Leader) – Lead Developer, implemented the majority of frontend and backend code.
+
 Chester Pineda (Member) – Implemented the functional video player and fixed registration and login issues.
+
 We Seong Yun (Member) - Assisted with initial frontend design and layout.
+
 
